@@ -5,6 +5,7 @@ body {
     margin: 0;
 }
 
+/* Header styles */
 .header {
     display: flex;
     flex-direction: column;
@@ -91,10 +92,48 @@ button {
     color: #E5E7EB;
 }
 
+/* Content area styles */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 80px 40px;
+}
+
 .content h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
+}
+
+.content-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-image {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
 }
 
 button, .cta-box {
